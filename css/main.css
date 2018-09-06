@@ -1,0 +1,141 @@
+body{
+    background: url(../images/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	position: absolute;
+}
+
+#header{
+	height: 18vh;
+}
+
+.homeDiv{
+	width: 98vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.castDiv{
+	width: 98vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.infoDiv{
+	width: 98vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.nav{
+	font-size: 1.5em;
+	color: white;
+	text-decoration: none;
+	padding: 1vw;
+	font-weight: bold;
+}
+
+
+.donnie{
+	margin-top: -4vh;
+	margin-left: 8vw;
+	z-index: 1;
+}
+
+.darwin{
+	margin-top: -3vh;
+	margin-left: 8vw;
+}
+
+.alligator{
+	margin-top: -1.4vh;
+	margin-left: 8vw;
+}
+
+.eliza{
+  	width: 15%;
+	margin-top: -3vh;
+ }
+
+#first{
+	display: flex;
+}
+
+.youtube{
+	margin-top: 8vh;
+}
+
+#synopsis{
+	color: white;
+	background: rgba(0,127,64,.2);
+	width: 60vw;
+	word-spacing: .5vw;
+	font-size: 1.3em;
+	font-weight: bold;
+	margin-top: 4vh;
+}
+
+h1{
+	color: white;
+	text-align: center;
+}
+
+#info{
+	background: rgba(0,127,64,.2);
+	width: 50vw;
+	margin-left: 10vw;	
+}
+
+ul{
+	text-align: center;
+	list-style-type: none;
+	color: white;
+	font-size: 1.7em;
+}
+
+.produced tr td a{
+	margin: 5em;
+}
+
+#cast{
+	margin-top: -25vh;
+	margin-left: 600px;
+	width: 580px;
+}
+
+button{
+font-size: 14pt;
+border-radius: 10px;
+background: #B90018;
+color: white;
+outline: none;
+}
+
+.next{
+margin-left: 460px;
+}
+
+.rv{
+position: absolute;
+transform: translate(0px,300px;);
+animation:movemerv 3s ease-in-out 0s;
+}
+
+@keyframes movemerv{
+	0%{
+		transform: translate(-500px);
+	}
+	100%{
+		transform: translate(0px);
+	}
+}
+	
+.fam{
+margin-top: 15vh;
+margin-left: 32vw;
+width: 80vw;
+height: 20vh;
+}
